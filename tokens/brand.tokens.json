@@ -1,0 +1,86 @@
+{
+  "$schema": "https://niceneasy.dev/schemas/brand-tokens.schema.json",
+  "meta": {
+    "name": "nice'n'easy Brand Tokens",
+    "version": "0.1.0",
+    "description": "Source tokens for Swiss operational trust across niceneasy product surfaces."
+  },
+  "color": {
+    "ink": {
+      "950": { "value": "#10161F", "usage": "Dark product backgrounds" },
+      "900": { "value": "#16212E", "usage": "Dark elevated surfaces" },
+      "800": { "value": "#223244", "usage": "Dark borders and secondary panels" },
+      "700": { "value": "#314559", "usage": "Muted dark text and structure" }
+    },
+    "paper": {
+      "50": { "value": "#F6F3EA", "usage": "Public website background" },
+      "100": { "value": "#ECE5D6", "usage": "Soft sections and dividers" },
+      "200": { "value": "#D7CCB8", "usage": "Warm borders and inset panels" }
+    },
+    "moss": {
+      "700": { "value": "#31553D", "usage": "Dark primary accent" },
+      "500": { "value": "#4D7C59", "usage": "Primary brand accent" },
+      "300": { "value": "#9BBE9A", "usage": "Subtle highlights" }
+    },
+    "brass": {
+      "500": { "value": "#A98549", "usage": "Strong evidence and audit accent" },
+      "400": { "value": "#C5A46D", "usage": "Evidence, audit, metadata" },
+      "200": { "value": "#E0CC9F", "usage": "Soft evidence tint" }
+    },
+    "coral": {
+      "600": { "value": "#9F4438", "usage": "Strong risk and denial states" },
+      "400": { "value": "#C76B5A", "usage": "Risk, blocked, urgent attention" },
+      "200": { "value": "#E8A89A", "usage": "Soft risk tint" }
+    },
+    "signal": {
+      "ok": { "value": "#6F9B73", "usage": "Healthy status" },
+      "warn": { "value": "#C5A46D", "usage": "Warning and waiting status" },
+      "risk": { "value": "#C76B5A", "usage": "Risk and blocked status" },
+      "info": { "value": "#7D9CB3", "usage": "Neutral information status" }
+    }
+  },
+  "semantic": {
+    "bgDark": { "value": "{color.ink.950}" },
+    "surfaceDark": { "value": "{color.ink.900}" },
+    "borderDark": { "value": "{color.ink.800}" },
+    "bgLight": { "value": "{color.paper.50}" },
+    "surfaceLight": { "value": "{color.paper.100}" },
+    "borderLight": { "value": "{color.paper.200}" },
+    "accentPrimary": { "value": "{color.moss.500}" },
+    "accentSubtle": { "value": "{color.moss.300}" },
+    "accentEvidence": { "value": "{color.brass.400}" },
+    "accentRisk": { "value": "{color.coral.400}" }
+  },
+  "typography": {
+    "sans": { "value": "\"Geist\", \"Satoshi\", \"Avenir Next\", sans-serif" },
+    "mono": { "value": "\"JetBrains Mono\", monospace" }
+  },
+  "radius": {
+    "sm": { "value": "6px" },
+    "md": { "value": "12px" },
+    "lg": { "value": "20px" },
+    "xl": { "value": "28px" }
+  },
+  "space": {
+    "1": { "value": "4px" },
+    "2": { "value": "8px" },
+    "3": { "value": "12px" },
+    "4": { "value": "16px" },
+    "6": { "value": "24px" },
+    "8": { "value": "32px" },
+    "12": { "value": "48px" },
+    "16": { "value": "64px" },
+    "24": { "value": "96px" }
+  },
+  "shadow": {
+    "cockpit": { "value": "0 24px 80px rgba(16, 22, 31, 0.38)" },
+    "paper": { "value": "0 18px 60px rgba(49, 69, 89, 0.16)" },
+    "focus": { "value": "0 0 0 3px rgba(77, 124, 89, 0.34)" }
+  },
+  "motion": {
+    "fast": { "value": "140ms" },
+    "base": { "value": "220ms" },
+    "slow": { "value": "420ms" },
+    "ease": { "value": "cubic-bezier(0.2, 0.8, 0.2, 1)" }
+  }
+}

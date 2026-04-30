@@ -1,32 +1,41 @@
 :root {
-  /* Core palette: Swiss operational trust. */
-  --nice-ink-950: #10161f;
-  --nice-ink-900: #16212e;
-  --nice-paper-50: #f6f3ea;
-  --nice-paper-100: #ece5d6;
-  --nice-moss-500: #4d7c59;
-  --nice-moss-300: #9bbe9a;
-  --nice-brass-400: #c5a46d;
-  --nice-coral-400: #c76b5a;
-
-  /* Semantic aliases for first consumers. */
-  --nice-bg-dark: var(--nice-ink-950);
-  --nice-surface-dark: var(--nice-ink-900);
-  --nice-bg-light: var(--nice-paper-50);
-  --nice-surface-light: var(--nice-paper-100);
-  --nice-accent-primary: var(--nice-moss-500);
-  --nice-accent-subtle: var(--nice-moss-300);
-  --nice-accent-evidence: var(--nice-brass-400);
-  --nice-accent-risk: var(--nice-coral-400);
-
-  /* Typography defaults. Product surfaces may map these to local font loading. */
+  /* Generated from tokens/brand.tokens.json. Do not edit by hand. */
+  --nice-color-ink-700: #314559;
+  --nice-color-ink-800: #223244;
+  --nice-color-ink-900: #16212E;
+  --nice-color-ink-950: #10161F;
+  --nice-color-paper-50: #F6F3EA;
+  --nice-color-paper-100: #ECE5D6;
+  --nice-color-paper-200: #D7CCB8;
+  --nice-color-moss-300: #9BBE9A;
+  --nice-color-moss-500: #4D7C59;
+  --nice-color-moss-700: #31553D;
+  --nice-color-brass-200: #E0CC9F;
+  --nice-color-brass-400: #C5A46D;
+  --nice-color-brass-500: #A98549;
+  --nice-color-coral-200: #E8A89A;
+  --nice-color-coral-400: #C76B5A;
+  --nice-color-coral-600: #9F4438;
+  --nice-color-signal-ok: #6F9B73;
+  --nice-color-signal-warn: #C5A46D;
+  --nice-color-signal-risk: #C76B5A;
+  --nice-color-signal-info: #7D9CB3;
+  --nice-bg-dark: #10161F;
+  --nice-surface-dark: #16212E;
+  --nice-border-dark: #223244;
+  --nice-bg-light: #F6F3EA;
+  --nice-surface-light: #ECE5D6;
+  --nice-border-light: #D7CCB8;
+  --nice-accent-primary: #4D7C59;
+  --nice-accent-subtle: #9BBE9A;
+  --nice-accent-evidence: #C5A46D;
+  --nice-accent-risk: #C76B5A;
   --nice-font-sans: "Geist", "Satoshi", "Avenir Next", sans-serif;
   --nice-font-mono: "JetBrains Mono", monospace;
-
-  /* Shared shape and rhythm primitives. */
   --nice-radius-sm: 6px;
   --nice-radius-md: 12px;
   --nice-radius-lg: 20px;
+  --nice-radius-xl: 28px;
   --nice-space-1: 4px;
   --nice-space-2: 8px;
   --nice-space-3: 12px;
@@ -34,4 +43,33 @@
   --nice-space-6: 24px;
   --nice-space-8: 32px;
   --nice-space-12: 48px;
+  --nice-space-16: 64px;
+  --nice-space-24: 96px;
+  --nice-shadow-cockpit: 0 24px 80px rgba(16, 22, 31, 0.38);
+  --nice-shadow-paper: 0 18px 60px rgba(49, 69, 89, 0.16);
+  --nice-shadow-focus: 0 0 0 3px rgba(77, 124, 89, 0.34);
+  --nice-motion-fast: 140ms;
+  --nice-motion-base: 220ms;
+  --nice-motion-slow: 420ms;
+  --nice-motion-ease: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --nice-ink-700: #314559;
+  --nice-ink-800: #223244;
+  --nice-ink-900: #16212E;
+  --nice-ink-950: #10161F;
+  --nice-paper-50: #F6F3EA;
+  --nice-paper-100: #ECE5D6;
+  --nice-paper-200: #D7CCB8;
+  --nice-moss-300: #9BBE9A;
+  --nice-moss-500: #4D7C59;
+  --nice-moss-700: #31553D;
+  --nice-brass-200: #E0CC9F;
+  --nice-brass-400: #C5A46D;
+  --nice-brass-500: #A98549;
+  --nice-coral-200: #E8A89A;
+  --nice-coral-400: #C76B5A;
+  --nice-coral-600: #9F4438;
+  --nice-signal-ok: #6F9B73;
+  --nice-signal-warn: #C5A46D;
+  --nice-signal-risk: #C76B5A;
+  --nice-signal-info: #7D9CB3;
 }

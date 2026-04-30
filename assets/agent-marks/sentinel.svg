@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-labelledby="title desc">
+  <title id="title">Sentinel agent mark</title>
+  <desc id="desc">Radar sweep mark for monitoring and quality signals.</desc>
+  <rect width="96" height="96" rx="20" fill="#10161F"/>
+  <circle cx="48" cy="48" r="30" fill="none" stroke="#314559" stroke-width="2"/>
+  <circle cx="48" cy="48" r="18" fill="none" stroke="#314559" stroke-width="2"/>
+  <path d="M48 48l24-16" stroke="#4D7C59" stroke-width="5" stroke-linecap="round"/>
+  <path d="M48 18v60M18 48h60" stroke="#223244" stroke-width="2"/>
+  <circle cx="48" cy="48" r="4" fill="#C5A46D"/>
+</svg>

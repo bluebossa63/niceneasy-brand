@@ -1,0 +1,27 @@
+{
+  "name": "@niceneasy/brand",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Corporate design tokens, marks, and usage rules for the niceneasy platform family.",
+  "type": "module",
+  "exports": {
+    "./tokens.css": "./tokens/tokens.css",
+    "./vscode.css": "./tokens/vscode.css",
+    "./tailwind-v3": "./tailwind/tailwind-v3-preset.cjs",
+    "./tailwind-v4.css": "./tailwind/tailwind-v4-theme.css",
+    "./tokens": "./tokens/brand.tokens.json"
+  },
+  "files": [
+    "assets",
+    "docs",
+    "examples",
+    "schemas",
+    "tailwind",
+    "tokens",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "node scripts/build-tokens.mjs",
+    "check": "node scripts/check-brand.mjs"
+  }
+}

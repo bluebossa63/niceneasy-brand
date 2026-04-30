@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-labelledby="title desc">
+  <title id="title">Meridian agent mark</title>
+  <desc id="desc">Compass axis mark for coordination and delivery.</desc>
+  <rect width="96" height="96" rx="20" fill="#10161F"/>
+  <circle cx="48" cy="48" r="30" fill="none" stroke="#C5A46D" stroke-width="2"/>
+  <path d="M48 14v68M14 48h68" stroke="#314559" stroke-width="2"/>
+  <path d="M48 24l8 24-8 24-8-24 8-24z" fill="#4D7C59"/>
+</svg>

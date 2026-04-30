@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-labelledby="title desc">
+  <title id="title">Marketing agent mark</title>
+  <desc id="desc">Signal trace mark for content and market communication.</desc>
+  <rect width="96" height="96" rx="20" fill="#10161F"/>
+  <path d="M20 58h14l28-18v36L34 58" fill="#16212E" stroke="#C5A46D" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M66 38c6 4 10 10 10 18s-4 14-10 18" fill="none" stroke="#4D7C59" stroke-width="4" stroke-linecap="round"/>
+  <path d="M74 28c10 7 16 16 16 28s-6 21-16 28" fill="none" stroke="#314559" stroke-width="3" stroke-linecap="round"/>
+</svg>

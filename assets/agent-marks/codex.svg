@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-labelledby="title desc">
+  <title id="title">Codex agent mark</title>
+  <desc id="desc">Code ledger mark for engineering execution.</desc>
+  <rect width="96" height="96" rx="20" fill="#10161F"/>
+  <path d="M34 28L18 48l16 20" fill="none" stroke="#9BBE9A" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M62 28l16 20-16 20" fill="none" stroke="#9BBE9A" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M43 70l10-44" stroke="#C5A46D" stroke-width="4" stroke-linecap="round"/>
+  <path d="M24 78h48" stroke="#314559" stroke-width="2"/>
+</svg>

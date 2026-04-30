@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://niceneasy.dev/schemas/brand-tokens.schema.json",
+  "title": "nice'n'easy Brand Tokens",
+  "type": "object",
+  "required": ["meta", "color", "semantic", "typography", "radius", "space", "shadow", "motion"],
+  "properties": {
+    "meta": {
+      "type": "object",
+      "required": ["name", "version", "description"]
+    },
+    "color": { "$ref": "#/$defs/tokenGroup" },
+    "semantic": { "$ref": "#/$defs/tokenGroup" },
+    "typography": { "$ref": "#/$defs/tokenGroup" },
+    "radius": { "$ref": "#/$defs/tokenGroup" },
+    "space": { "$ref": "#/$defs/tokenGroup" },
+    "shadow": { "$ref": "#/$defs/tokenGroup" },
+    "motion": { "$ref": "#/$defs/tokenGroup" }
+  },
+  "$defs": {
+    "token": {
+      "type": "object",
+      "required": ["value"],
+      "properties": {
+        "value": { "type": "string" },
+        "usage": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "tokenGroup": {
+      "type": "object",
+      "additionalProperties": {
+        "anyOf": [
+          { "$ref": "#/$defs/token" },
+          { "$ref": "#/$defs/tokenGroup" }
+        ]
+      }
+    }
+  }
+}

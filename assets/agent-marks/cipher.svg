@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-labelledby="title desc">
+  <title id="title">Cipher agent mark</title>
+  <desc id="desc">Inspection shield mark for security and compliance.</desc>
+  <rect width="96" height="96" rx="20" fill="#10161F"/>
+  <path d="M48 16l28 10v21c0 18-11 30-28 39-17-9-28-21-28-39V26l28-10z" fill="#16212E" stroke="#C5A46D" stroke-width="2"/>
+  <circle cx="48" cy="48" r="13" fill="none" stroke="#4D7C59" stroke-width="4"/>
+  <path d="M48 35v26M35 48h26" stroke="#9BBE9A" stroke-width="2"/>
+</svg>
