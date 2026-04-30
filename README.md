@@ -2,9 +2,9 @@
 
 Corporate identity and corporate design repository for the niceneasy platform family.
 
-The current canonical design reference is:
+The canonical design reference is:
 
-- `../niceneasy/docs/corporate-design.md`
+- `docs/corporate-design.md`
 
 The first concrete token output is:
 
