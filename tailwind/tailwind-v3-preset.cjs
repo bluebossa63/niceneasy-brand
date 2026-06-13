@@ -4,40 +4,41 @@ module.exports = {
     extend: {
       colors: {
               "ink": {
-                      "700": "#314559",
-                      "800": "#223244",
-                      "900": "#16212E",
-                      "950": "#10161F"
+                      "700": "#2B4A6E",
+                      "800": "#1C3250",
+                      "900": "#12223A",
+                      "950": "#0A1524"
               },
               "paper": {
-                      "50": "#F6F3EA",
-                      "100": "#ECE5D6",
-                      "200": "#D7CCB8"
+                      "50": "#F4F7FA",
+                      "100": "#E8EEF5",
+                      "200": "#D0DCE8"
               },
-              "moss": {
-                      "300": "#9BBE9A",
-                      "500": "#4D7C59",
-                      "700": "#31553D"
+              "sc-blue": {
+                      "700": "#003A70",
+                      "500": "#005AA9",
+                      "300": "#4A90D9",
+                      "100": "#8DB8E8"
               },
-              "brass": {
-                      "200": "#E0CC9F",
-                      "400": "#C5A46D",
-                      "500": "#A98549"
+              "amber": {
+                      "500": "#C9972B",
+                      "400": "#D9A83A",
+                      "200": "#E8C97A"
               },
-              "coral": {
-                      "200": "#E8A89A",
-                      "400": "#C76B5A",
-                      "600": "#9F4438"
+              "red": {
+                      "600": "#B33838",
+                      "400": "#D94A4A",
+                      "200": "#E88A8A"
               },
               "signal": {
-                      "ok": "#6F9B73",
-                      "warn": "#C5A46D",
-                      "risk": "#C76B5A",
-                      "info": "#7D9CB3"
+                      "ok": "#3D9E5B",
+                      "warn": "#D9A83A",
+                      "risk": "#D94A4A",
+                      "info": "#5B9BD5"
               }
       },
       fontFamily: {
-        sans: ['Geist', 'Satoshi', 'Avenir Next', 'sans-serif'],
+        sans: ['Inter', 'Geist', 'Avenir Next', 'sans-serif'],
         mono: ['JetBrains Mono', 'monospace']
       },
       borderRadius: {
@@ -58,9 +59,9 @@ module.exports = {
               "24": "96px"
       },
       boxShadow: {
-              "cockpit": "0 24px 80px rgba(16, 22, 31, 0.38)",
-              "paper": "0 18px 60px rgba(49, 69, 89, 0.16)",
-              "focus": "0 0 0 3px rgba(77, 124, 89, 0.34)"
+              "cockpit": "0 24px 80px rgba(10, 21, 36, 0.42)",
+              "paper": "0 18px 60px rgba(43, 74, 110, 0.18)",
+              "focus": "0 0 0 3px rgba(0, 90, 169, 0.34)"
       }
     }
   }

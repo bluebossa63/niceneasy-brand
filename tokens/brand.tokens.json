@@ -1,42 +1,43 @@
 {
   "$schema": "https://niceneasy.dev/schemas/brand-tokens.schema.json",
   "meta": {
-    "name": "nice'n'easy Brand Tokens",
-    "version": "0.1.0",
-    "description": "Source tokens for Swiss operational trust across niceneasy product surfaces."
+    "name": "FSI Agent Squad — Swisscom Brand Tokens",
+    "version": "0.2.0",
+    "description": "Swisscom-aligned brand tokens for the FSI Agent Squad operational dashboard."
   },
   "color": {
     "ink": {
-      "950": { "value": "#10161F", "usage": "Dark product backgrounds" },
-      "900": { "value": "#16212E", "usage": "Dark elevated surfaces" },
-      "800": { "value": "#223244", "usage": "Dark borders and secondary panels" },
-      "700": { "value": "#314559", "usage": "Muted dark text and structure" }
+      "950": { "value": "#0A1524", "usage": "Dark product backgrounds — Swisscom deep navy" },
+      "900": { "value": "#12223A", "usage": "Dark elevated surfaces" },
+      "800": { "value": "#1C3250", "usage": "Dark borders and secondary panels" },
+      "700": { "value": "#2B4A6E", "usage": "Muted dark text and structure" }
     },
     "paper": {
-      "50": { "value": "#F6F3EA", "usage": "Public website background" },
-      "100": { "value": "#ECE5D6", "usage": "Soft sections and dividers" },
-      "200": { "value": "#D7CCB8", "usage": "Warm borders and inset panels" }
+      "50": { "value": "#F4F7FA", "usage": "Light background" },
+      "100": { "value": "#E8EEF5", "usage": "Soft sections and dividers" },
+      "200": { "value": "#D0DCE8", "usage": "Warm borders and inset panels" }
     },
-    "moss": {
-      "700": { "value": "#31553D", "usage": "Dark primary accent" },
-      "500": { "value": "#4D7C59", "usage": "Primary brand accent" },
-      "300": { "value": "#9BBE9A", "usage": "Subtle highlights" }
+    "sc-blue": {
+      "700": { "value": "#003A70", "usage": "Dark Swisscom blue — strong accent" },
+      "500": { "value": "#005AA9", "usage": "Primary Swisscom blue accent" },
+      "300": { "value": "#4A90D9", "usage": "Subtle blue highlights" },
+      "100": { "value": "#8DB8E8", "usage": "Very light blue tint" }
     },
-    "brass": {
-      "500": { "value": "#A98549", "usage": "Strong evidence and audit accent" },
-      "400": { "value": "#C5A46D", "usage": "Evidence, audit, metadata" },
-      "200": { "value": "#E0CC9F", "usage": "Soft evidence tint" }
+    "amber": {
+      "500": { "value": "#C9972B", "usage": "Strong evidence and audit accent" },
+      "400": { "value": "#D9A83A", "usage": "Evidence, audit, metadata" },
+      "200": { "value": "#E8C97A", "usage": "Soft evidence tint" }
     },
-    "coral": {
-      "600": { "value": "#9F4438", "usage": "Strong risk and denial states" },
-      "400": { "value": "#C76B5A", "usage": "Risk, blocked, urgent attention" },
-      "200": { "value": "#E8A89A", "usage": "Soft risk tint" }
+    "red": {
+      "600": { "value": "#B33838", "usage": "Strong risk and denial states" },
+      "400": { "value": "#D94A4A", "usage": "Risk, blocked, urgent attention" },
+      "200": { "value": "#E88A8A", "usage": "Soft risk tint" }
     },
     "signal": {
-      "ok": { "value": "#6F9B73", "usage": "Healthy status" },
-      "warn": { "value": "#C5A46D", "usage": "Warning and waiting status" },
-      "risk": { "value": "#C76B5A", "usage": "Risk and blocked status" },
-      "info": { "value": "#7D9CB3", "usage": "Neutral information status" }
+      "ok": { "value": "#3D9E5B", "usage": "Healthy status — green" },
+      "warn": { "value": "#D9A83A", "usage": "Warning and waiting status — amber" },
+      "risk": { "value": "#D94A4A", "usage": "Risk and blocked status — red" },
+      "info": { "value": "#5B9BD5", "usage": "Neutral information status — blue" }
     }
   },
   "semantic": {
@@ -46,13 +47,13 @@
     "bgLight": { "value": "{color.paper.50}" },
     "surfaceLight": { "value": "{color.paper.100}" },
     "borderLight": { "value": "{color.paper.200}" },
-    "accentPrimary": { "value": "{color.moss.500}" },
-    "accentSubtle": { "value": "{color.moss.300}" },
-    "accentEvidence": { "value": "{color.brass.400}" },
-    "accentRisk": { "value": "{color.coral.400}" }
+    "accentPrimary": { "value": "{color.sc-blue.500}" },
+    "accentSubtle": { "value": "{color.sc-blue.300}" },
+    "accentEvidence": { "value": "{color.amber.400}" },
+    "accentRisk": { "value": "{color.red.400}" }
   },
   "typography": {
-    "sans": { "value": "\"Geist\", \"Satoshi\", \"Avenir Next\", sans-serif" },
+    "sans": { "value": "\"Inter\", \"Geist\", \"Avenir Next\", sans-serif" },
     "mono": { "value": "\"JetBrains Mono\", monospace" }
   },
   "radius": {
@@ -73,9 +74,9 @@
     "24": { "value": "96px" }
   },
   "shadow": {
-    "cockpit": { "value": "0 24px 80px rgba(16, 22, 31, 0.38)" },
-    "paper": { "value": "0 18px 60px rgba(49, 69, 89, 0.16)" },
-    "focus": { "value": "0 0 0 3px rgba(77, 124, 89, 0.34)" }
+    "cockpit": { "value": "0 24px 80px rgba(10, 21, 36, 0.42)" },
+    "paper": { "value": "0 18px 60px rgba(43, 74, 110, 0.18)" },
+    "focus": { "value": "0 0 0 3px rgba(0, 90, 169, 0.34)" }
   },
   "motion": {
     "fast": { "value": "140ms" },
