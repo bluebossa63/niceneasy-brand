@@ -1,9 +1,15 @@
 {
-  "name": "@niceneasy/brand",
+  "name": "@bluebossa63/brand",
   "version": "0.1.0",
-  "private": true,
   "description": "Corporate design tokens, marks, and usage rules for the niceneasy platform family.",
   "type": "module",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bluebossa63/niceneasy-brand.git"
+  },
   "exports": {
     "./tokens.css": "./tokens/tokens.css",
     "./vscode.css": "./tokens/vscode.css",

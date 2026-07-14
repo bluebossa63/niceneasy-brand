@@ -15,20 +15,20 @@ module.exports = {
                       "200": "#D0DCE8"
               },
               "sc-blue": {
-                      "700": "#003A70",
-                      "500": "#005AA9",
+                      "100": "#8DB8E8",
                       "300": "#4A90D9",
-                      "100": "#8DB8E8"
+                      "500": "#005AA9",
+                      "700": "#003A70"
               },
               "amber": {
-                      "500": "#C9972B",
+                      "200": "#E8C97A",
                       "400": "#D9A83A",
-                      "200": "#E8C97A"
+                      "500": "#C9972B"
               },
               "red": {
-                      "600": "#B33838",
+                      "200": "#E88A8A",
                       "400": "#D94A4A",
-                      "200": "#E88A8A"
+                      "600": "#B33838"
               },
               "signal": {
                       "ok": "#3D9E5B",
@@ -38,7 +38,7 @@ module.exports = {
               }
       },
       fontFamily: {
-        sans: ['Inter', 'Geist', 'Avenir Next', 'sans-serif'],
+        sans: ['Geist', 'Satoshi', 'Avenir Next', 'sans-serif'],
         mono: ['JetBrains Mono', 'monospace']
       },
       borderRadius: {
