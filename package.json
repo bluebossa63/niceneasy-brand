@@ -28,6 +28,9 @@
   ],
   "scripts": {
     "build": "node scripts/build-tokens.mjs",
-    "check": "node scripts/check-brand.mjs"
+    "check": "node scripts/check-brand.mjs",
+    "check:generated": "node --test tests/generated-artifacts.test.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "coverage": "mkdir -p coverage && node --test --experimental-test-coverage --test-reporter=lcov --test-reporter-destination=coverage/lcov.info --test-reporter=spec --test-reporter-destination=stdout tests/*.test.mjs"
   }
 }
